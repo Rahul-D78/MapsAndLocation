@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "754756521615",
+    "firebase_url": "https://mapsandlocation-fb1b4.firebaseio.com",
+    "project_id": "mapsandlocation-fb1b4",
+    "storage_bucket": "mapsandlocation-fb1b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754756521615:android:b8041f46f4f40e9c5faafa",
+        "android_client_info": {
+          "package_name": "com.example.mapsandlocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754756521615-brtu79ifnq4ejsvoqacejetos3jo6r9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDARkv3170xp6j10kixRLE4D8gomtfq24Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754756521615-brtu79ifnq4ejsvoqacejetos3jo6r9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

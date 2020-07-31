@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.mapsandlocation.ui.login.LoginActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     Button browseMap;
@@ -25,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(i);
+            }
+        });
+
+        loginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent n = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(n);
             }
         });
     }
